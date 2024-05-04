@@ -1,0 +1,165 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+/* HEADER */
+
+#header {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 60px;
+    color: #F9FAF8;
+}
+
+h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 24px;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+#usp {
+    background-color: #3882F6;
+    padding: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    gap: 32px;
+}
+
+#description {
+    flex-basis: 600px;
+    color: #e5e7eb;
+}
+
+#description .heading {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+#description button {
+    background-color: #1f2937;
+    padding: 4px 12px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+}
+
+#hero-image {
+    width: 320px;
+    height: auto;
+    border: 2px solid white;
+    border-radius: 8px;
+}
+
+/* INFO */
+
+#info {
+    text-align: center;
+    padding: 32px 16px 64px;
+}
+
+#info h2 {
+    font-size: 32px;
+}
+
+.figures {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+figure {
+    width: 200px;
+    padding: 10px;
+}
+
+img {
+    width: inherit;
+    border: 2px solid #3882f6;
+    border-radius: 8px;
+}
+
+figure p {
+    margin: 4px 4px 8px;
+}
+
+/* QUOTATION */
+
+#quotation {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 120px 120px;
+}
+
+#quote {
+    font-size: 40px;
+    margin-bottom: 12px;
+}
+
+#author {
+    font-size: 20px;
+    align-self: flex-end;
+    font-weight: 800;
+}
+
+/* CALL FOR ACTION */
+
+#call-for-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+}
+
+#banner {
+    background-color: #3882F6;
+    border-radius: 8px;
+    flex-basis: 800px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 24px;
+    padding: 24px;
+}
+
+.banner-text p {
+    margin-top: -16px;
+}
+
+#banner button {
+    padding: 4px 12px;
+    border: 1px solid #1F2937;
+    border-radius: 4px;
+}
+
+/* FOOTER */
+
+#footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 40px;
+}
